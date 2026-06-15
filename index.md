@@ -3,9 +3,9 @@ layout: home
 author_profile: true
 ---
 
-# Bienvenue sur mon carnet de recherche
+# Clémence Perrin
 
-Je suis doctorante en thèse CIFRE au sein du **CEEP (Mines Paris - PSL)** et de **SunMind (Vinci Concessions)**. 
+Doctorante en thèse CIFRE au sein du **CEEP (Mines Paris - PSL)** et de **SunMind (Vinci Concessions)**. 
 
 Mes travaux de recherche portent sur l'optimisation technico-économique et environnementale du pilotage des systèmes couplés Photovoltaïque (PV) et Stockage par Batterie (BESS).
 
