@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Clémence Perrin"
+title                    : #"Clémence Perrin"
 title_separator          : "-"
 name                     : #&name "Clémence Perrin"
 description              : #&description "Clémence Perrin's work portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
