@@ -1,38 +1,34 @@
----
-layout: archive
+remote_theme: mmistakes/minimal-mistakes
+
 title: "Clémence Perrin"
-author_profile: true
----
-
-locale: "en-US"
-site_theme: "default"
-
-title: ""
 name: "Clémence Perrin"
 description: "PhD candidate - Optimization of PV and BESS systems"
-
 url: "https://clemenceperrin.github.io"
 baseurl: ""
 repository: "clemenceperrin/clemenceperrin.github.io"
+locale: "en-US"
+minimal_mistakes_skin: "default"
 
 author:
-  avatar: "profile.png"
   name: "Clémence Perrin"
+  avatar: "profile.png"          # → assets/images/profile.png
   bio: "Second year PhD candidate at Mines Paris and SunMind (Vinci Concessions)"
   employer: "Mines Paris - PSL / SunMind - Vinci Concessions"
   email: "clemence.perrin@minesparis.psl.eu"
   linkedin: "https://www.linkedin.com/in/clemence-perrin-b5263a17b"
 
-# Social (minimal safe config)
-twitter:
-  username: ""
+# Par défaut : profil auteur visible partout
+defaults:
+  - scope:
+      path: ""
+    values:
+      author_profile: true
 
-# Plugins (compatibles GitHub Pages)
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-include-cache   # requis par Minimal Mistakes
 
-# Collections
 collections:
   publications:
     output: true
